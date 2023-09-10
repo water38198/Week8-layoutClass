@@ -1,0 +1,13 @@
+$primary-100:#E9E2F3;
+$primary-200:#7000FF;
+$primary-300:#6E01F8;
+$primary-400:#380C7E;
+$primary-500:#1F0F39;
+
+$custom-colors:('primary-100':$primary-100,
+  'primary-200':$primary-200,
+  'primary-300':$primary-300,
+  'primary-400':$primary-400,
+  'primary-500':$primary-500,
+);
+$theme-colors:map-merge($theme-colors, $custom-colors);

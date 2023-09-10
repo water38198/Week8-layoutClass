@@ -1,0 +1,22 @@
+// BS5
+@import "../../node_modules/bootstrap/scss/functions";
+@import './utils/variables';
+@import 'bootstrap/scss/maps';
+@import "bootstrap/scss/mixins";
+@import "./utils/utilities";
+@import './utils/typography';
+
+@import './utils/custom-color';
+
+@import './mixins/bg-gradient';
+@import './utils/custom-utils';
+
+@import './layout/navbar.scss';
+@import './layout/footer.scss';
+
+
+@import './pages/index.scss';
+@import './pages/faq.scss';
+
+
+@import "../../node_modules/bootstrap";

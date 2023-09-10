@@ -1,0 +1,7 @@
+.gradient-purple-black {
+  @include gradient-x($primary, #11002D 116.05%)
+}
+
+.gradient-black-purple {
+  @include gradient-x(#11002D, $primary)
+}

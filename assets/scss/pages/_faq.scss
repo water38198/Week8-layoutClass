@@ -1,0 +1,36 @@
+.faq {
+  background-color: #E9E2F3;
+  color: $primary-500;
+
+
+
+
+  .dotted-border {
+    background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' stroke='white' stroke-width='2' stroke-dasharray='2%2c 8' stroke-dashoffset='0' stroke-linecap='butt'/%3e%3c/svg%3e");
+    background-position: bottom;
+    background-size: 10px 2px;
+    background-repeat: repeat-x;
+  }
+
+  .nav-link {
+    color: $primary-500;
+  }
+
+  &-accordion {
+    padding-bottom: 80px;
+
+    @media (min-width:768px) {
+      padding-bottom: 120px;
+
+    }
+  }
+
+  .accordion-header {
+    max-width: 700px;
+  }
+
+  .accordion-body {
+    max-width: 676px;
+    padding-bottom: 0;
+  }
+}

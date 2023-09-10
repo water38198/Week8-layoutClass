@@ -1268,7 +1268,7 @@ $accordion-border-radius: $border-radius !default;
 $accordion-inner-border-radius: subtract($accordion-border-radius, $accordion-border-width) !default;
 
 $accordion-body-padding-y: $accordion-padding-y !default;
-$accordion-body-padding-x: $accordion-padding-x !default;
+$accordion-body-padding-x: 0; //$accordion-padding-x !default;
 
 $accordion-button-padding-y: 0; //$accordion-padding-y !default;
 $accordion-button-padding-x: 0; //$accordion-padding-x !default;
